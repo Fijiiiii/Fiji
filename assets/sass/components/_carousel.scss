@@ -1,0 +1,121 @@
+@import '../abstracts/mixins';
+.Lang{
+
+  @include flex(flex,center,column,center);
+  padding-bottom: 3rem;
+  .skill{
+    .items{
+      padding: 2rem 0rem 2rem 0rem;
+      @include flex(flex,center,column,center);
+      .card{
+        transition: 1s;
+        &:hover{
+          scale: 1.1;
+        }
+        .card-body{
+          margin-top: 1rem !important;
+          h6{
+            margin-top: 1rem !important;
+            margin-bottom: 1rem !important;
+            font-weight: 400;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical; 
+            min-width: 160px;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+    .slick-dots{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding-left: 0rem;
+      @include margin(10rem,0rem,5rem,0rem);
+      li{
+        background-color: transparent;
+        border-radius: 10%;
+        margin: 17px;
+        button{
+          background-color: transparent;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          font-size: 0; 
+          border: 2px solid rgb(56, 55, 55);
+        }
+        
+      }
+      li.slick-active{
+        button {
+          background-color: rgb(99, 96, 96);
+        }
+      }
+    }
+    
+  }
+
+}
+
+@media (max-width: 991px){
+  .Lang{
+
+    @include flex(flex,center,column,center);
+    .skill{
+      .items{
+        padding: 2rem 0rem 2rem 0rem;
+        @include flex(flex,center,column,center);
+        .card{
+          transition: 1s;
+          &:hover{
+            scale: 1.1;
+          }
+          .card-body{
+            margin-top: 1rem !important;
+            h6{
+              margin-top: 1rem !important;
+              margin-bottom: 1rem !important;
+              font-weight: 400;
+              display: -webkit-box;
+              -webkit-line-clamp: 4;
+              -webkit-box-orient: vertical; 
+              min-width: 160px;
+              overflow: hidden;
+            }
+          }
+        }
+      }
+      .slick-dots{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding-left: 0rem;
+        @include margin(1rem,0rem,1rem,0rem);
+        li{
+          background-color: transparent;
+          border-radius: 10%;
+          margin: 17px;
+          button{
+            background-color: transparent;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            font-size: 0; 
+            border: 2px solid rgb(56, 55, 55);
+          }
+          
+        }
+        li.slick-active{
+          button {
+            background-color: rgb(99, 96, 96);
+          }
+        }
+      }
+      
+    }
+  
+  }
+}

@@ -1,0 +1,164 @@
+nav{
+  background-color: transparent;
+  .container{
+    a{
+      h1{
+        font-size: 5rem;
+        color: $Backone !important;
+        font-family: 'Caladea', serif;
+        font-weight: 700;
+        text-shadow: 10px 10px 10px #000000;
+      }
+    }
+    button{
+      background-color: $Backone !important;
+    }
+    .collapse{
+      ul{
+        li{
+          a{
+            color: $Backone;
+            font-size: 1.5rem !important;
+          }
+          .nav-bor{
+            border: 3px solid $Backone;
+            border-radius: 3px;
+          }
+          &:hover{
+            a{
+              color: $Backtwo;
+            }
+            .nav-bor{
+              border: 3px solid $lettershead;
+              color: $Backone;
+              border-radius: 3px;
+              background-color: $lettershead;
+            }
+            
+          }
+        }
+      }
+    }
+  }
+}
+.stix{
+  background-color: $Backone;
+  .container{
+    a{
+      h1{
+        color: $lettershead !important;
+        font-family: 'Caladea', serif;
+        font-weight: 700;
+        text-shadow: none;
+      }
+    }
+    button{
+      background-color: $Backone !important;
+    }
+    .collapse{
+      ul{
+        li{
+          a{
+            color: $lettershead !important;
+            font-size: 1.5rem !important;
+          }
+          .nav-bor{
+            border: 3px solid $lettershead;
+          }
+          &:hover{
+            a{
+              color: $Backone;
+            }
+            .nav-bor{
+              border: 3px solid $lettershead;
+              color: $Backone !important;
+              border-radius: 3px;
+              background-color: $lettershead;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  nav{
+    background-color: $Backone;
+    .container{
+      a{
+        h1{
+          color: $lettershead !important;
+          font-family: 'Caladea', serif;
+          font-weight: 700;
+        }
+      }
+      button{
+        background-color: black !important;
+      }
+      .collapse{
+        ul{
+          li{
+            a{
+              color: $letters !important;
+              font-size: 1.5rem !important;
+            }
+            .nav-bor{
+              border: none;
+            }
+            &:hover{
+              a{
+                color: $lettershead;
+              }
+              .nav-bor{
+                border: none;
+                color: $Backone;
+                border-radius: 3px;
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .stix{
+    background-color: $Backone;
+    .container{
+      a{
+        h1{
+          color: $lettershead !important;
+          font-family: 'Caladea', serif;
+          font-weight: 700;
+        }
+      }
+      button{
+        background-color: black !important;
+      }
+      .collapse{
+        ul{
+          li{
+            a{
+              color: $letters !important;
+              font-size: 1.5rem !important;
+            }
+            .nav-bor{
+              border: none;
+            }
+            &:hover{
+              a{
+                color: $lettershead !important;
+              }
+              .nav-bor{
+                border: none;
+                color: $lettershead !important;
+                border-radius: 3px;
+                background-color: transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

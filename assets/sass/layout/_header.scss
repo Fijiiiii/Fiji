@@ -1,0 +1,58 @@
+.head{
+  background: url(../images/desktop.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  @include flex(flex,center,column,center);
+  h1{
+    text-align: center;
+    color: $lettersheadtwo;
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1rem 10px 50px #000000;
+  }
+  h2{
+    color: $letters;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1rem 10px 50px #000000;
+  }
+  hr{
+    border: 2px solid $letters !important;
+    min-width: 5rem !important;
+    opacity: 100% !important;
+  }
+}
+@media (max-width: 539px){
+  .head{
+    background: url(../images/dark_plant.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 50vh;
+    
+    @include flex(flex,center,column,center);
+    h1{
+      padding-top: 5rem;
+      text-align: center;
+      color: $Backone;
+      font-size: 3rem;
+      font-family: 'Montserrat', sans-serif;
+      text-shadow: 1rem 10px 20px #000000;
+    }
+    h2{
+      color: $Backones;
+      font-size: 2rem;
+      font-family: 'Montserrat', sans-serif;
+      text-shadow: 1rem 10px 50px #000000;
+    }
+    hr{
+      border: 2px solid $Backones !important;
+      min-width: 5rem !important;
+      opacity: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,835 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.Lang {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.Lang .skill .items {
+  padding: 2rem 0rem 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Lang .skill .items .card {
+  transition: 1s;
+}
+.Lang .skill .items .card:hover {
+  scale: 1.1;
+}
+.Lang .skill .items .card .card-body {
+  margin-top: 1rem !important;
+}
+.Lang .skill .items .card .card-body h6 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  min-width: 160px;
+  overflow: hidden;
+}
+.Lang .skill .slick-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-left: 0rem;
+  margin-top: 10rem;
+  margin-right: 0rem;
+  margin-bottom: 5rem;
+  margin-left: 0rem;
+}
+.Lang .skill .slick-dots li {
+  background-color: transparent;
+  border-radius: 10%;
+  margin: 17px;
+}
+.Lang .skill .slick-dots li button {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  font-size: 0;
+  border: 2px solid rgb(56, 55, 55);
+}
+.Lang .skill .slick-dots li.slick-active button {
+  background-color: rgb(99, 96, 96);
+}
+
+@media (max-width: 991px) {
+  .Lang {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Lang .skill .items {
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .Lang .skill .items .card {
+    transition: 1s;
+  }
+  .Lang .skill .items .card:hover {
+    scale: 1.1;
+  }
+  .Lang .skill .items .card .card-body {
+    margin-top: 1rem !important;
+  }
+  .Lang .skill .items .card .card-body h6 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    min-width: 160px;
+    overflow: hidden;
+  }
+  .Lang .skill .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0rem;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+  }
+  .Lang .skill .slick-dots li {
+    background-color: transparent;
+    border-radius: 10%;
+    margin: 17px;
+  }
+  .Lang .skill .slick-dots li button {
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0;
+    border: 2px solid rgb(56, 55, 55);
+  }
+  .Lang .skill .slick-dots li.slick-active button {
+    background-color: rgb(99, 96, 96);
+  }
+}
+nav {
+  background-color: transparent;
+}
+nav .container a h1 {
+  font-size: 5rem;
+  color: #f2f7f1 !important;
+  font-family: "Caladea", serif;
+  font-weight: 700;
+  text-shadow: 10px 10px 10px #000000;
+}
+nav .container button {
+  background-color: #f2f7f1 !important;
+}
+nav .container .collapse ul li a {
+  color: #f2f7f1;
+  font-size: 1.5rem !important;
+}
+nav .container .collapse ul li .nav-bor {
+  border: 3px solid #f2f7f1;
+  border-radius: 3px;
+}
+nav .container .collapse ul li:hover a {
+  color: #fcfcfc;
+}
+nav .container .collapse ul li:hover .nav-bor {
+  border: 3px solid rgb(56, 55, 55);
+  color: #f2f7f1;
+  border-radius: 3px;
+  background-color: rgb(56, 55, 55);
+}
+
+.stix {
+  background-color: #f2f7f1;
+}
+.stix .container a h1 {
+  color: rgb(56, 55, 55) !important;
+  font-family: "Caladea", serif;
+  font-weight: 700;
+  text-shadow: none;
+}
+.stix .container button {
+  background-color: #f2f7f1 !important;
+}
+.stix .container .collapse ul li a {
+  color: rgb(56, 55, 55) !important;
+  font-size: 1.5rem !important;
+}
+.stix .container .collapse ul li .nav-bor {
+  border: 3px solid rgb(56, 55, 55);
+}
+.stix .container .collapse ul li:hover a {
+  color: #f2f7f1;
+}
+.stix .container .collapse ul li:hover .nav-bor {
+  border: 3px solid rgb(56, 55, 55);
+  color: #f2f7f1 !important;
+  border-radius: 3px;
+  background-color: rgb(56, 55, 55);
+}
+
+@media (max-width: 991px) {
+  nav {
+    background-color: #f2f7f1;
+  }
+  nav .container a h1 {
+    color: rgb(56, 55, 55) !important;
+    font-family: "Caladea", serif;
+    font-weight: 700;
+  }
+  nav .container button {
+    background-color: black !important;
+  }
+  nav .container .collapse ul li a {
+    color: #807f85 !important;
+    font-size: 1.5rem !important;
+  }
+  nav .container .collapse ul li .nav-bor {
+    border: none;
+  }
+  nav .container .collapse ul li:hover a {
+    color: rgb(56, 55, 55);
+  }
+  nav .container .collapse ul li:hover .nav-bor {
+    border: none;
+    color: #f2f7f1;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+  .stix {
+    background-color: #f2f7f1;
+  }
+  .stix .container a h1 {
+    color: rgb(56, 55, 55) !important;
+    font-family: "Caladea", serif;
+    font-weight: 700;
+  }
+  .stix .container button {
+    background-color: black !important;
+  }
+  .stix .container .collapse ul li a {
+    color: #807f85 !important;
+    font-size: 1.5rem !important;
+  }
+  .stix .container .collapse ul li .nav-bor {
+    border: none;
+  }
+  .stix .container .collapse ul li:hover a {
+    color: rgb(56, 55, 55) !important;
+  }
+  .stix .container .collapse ul li:hover .nav-bor {
+    border: none;
+    color: rgb(56, 55, 55) !important;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+}
+footer {
+  background-color: rgb(99, 96, 96);
+}
+footer h1 {
+  color: #f2f7f1;
+  margin-bottom: 1rem;
+}
+footer h6 {
+  color: #f2f7f1;
+  margin-bottom: 1rem;
+}
+footer .form form .form-one {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+footer .form form .form-one input {
+  max-width: 14rem;
+  background-color: #f2f7f1;
+}
+footer .form form input {
+  margin-bottom: 1rem;
+}
+footer .form form textarea {
+  min-height: 10rem !important;
+  background-color: #f2f7f1;
+  margin-bottom: 1rem;
+}
+footer .form form button {
+  width: 100%;
+  max-width: 50rem;
+  background-color: orangered;
+  border: 3px solid transparent;
+  border-radius: 5px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+  padding: 10px 20px;
+}
+footer .form form button:hover {
+  color: #f2f7f1;
+  border: 3px solid #f2f7f1;
+  background-color: transparent;
+}
+footer hr {
+  border: 2px solid #807f85 !important;
+  min-width: 5rem !important;
+  opacity: 100% !important;
+}
+footer .bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+footer .last {
+  padding: 10px 0px;
+}
+footer .last .row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+footer .last .row h3 {
+  color: black !important;
+  font-family: "Caladea", serif;
+  font-weight: 700;
+}
+footer .last .row .copyright-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+footer .last .row .copyright-text a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+footer .last .row .footer-icons {
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  align-items: center;
+}
+footer .last .row .footer-icons a {
+  margin-left: 1rem;
+}
+footer .last .row .footer-icons a i {
+  font-size: 2rem;
+  color: black;
+}
+
+@media (max-width: 991px) {
+  footer {
+    background-color: rgb(99, 96, 96);
+  }
+  footer h1 {
+    color: #f2f7f1;
+    margin-bottom: 1rem;
+  }
+  footer h6 {
+    color: #f2f7f1;
+    margin-bottom: 1rem;
+  }
+  footer .form form .form-one {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+    margin-bottom: 1rem;
+  }
+  footer .form form .form-one input {
+    max-width: 14rem;
+    background-color: #f2f7f1;
+  }
+  footer .form form input {
+    margin-bottom: 1rem;
+  }
+  footer .form form textarea {
+    min-height: 10rem !important;
+    background-color: #f2f7f1;
+    margin-bottom: 1rem;
+  }
+  footer .form form button {
+    width: 100%;
+    max-width: 50rem;
+    background-color: orangered;
+    border: 3px solid transparent;
+    border-radius: 5px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+    padding: 10px 20px;
+  }
+  footer .form form button:hover {
+    color: #f2f7f1;
+    border: 3px solid #f2f7f1;
+    background-color: transparent;
+  }
+  footer hr {
+    border: 2px solid #807f85 !important;
+    min-width: 5rem !important;
+    opacity: 100% !important;
+  }
+  footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .last {
+    padding: 50px 0px;
+  }
+  footer .last .row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .last .row h3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black !important;
+    font-family: "Caladea", serif;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+  footer .last .row .copyright-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .last .row .copyright-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+  }
+  footer .last .row .footer-icons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .last .row .footer-icons a {
+    margin-left: 1rem;
+  }
+  footer .last .row .footer-icons a i {
+    font-size: 2rem;
+    color: black;
+  }
+}
+.head {
+  background: url(../images/desktop.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.head h1 {
+  text-align: center;
+  color: rgb(99, 96, 96);
+  font-size: 6rem;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1rem 10px 50px #000000;
+}
+.head h2 {
+  color: #807f85;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 1rem 10px 50px #000000;
+}
+.head hr {
+  border: 2px solid #807f85 !important;
+  min-width: 5rem !important;
+  opacity: 100% !important;
+}
+
+@media (max-width: 539px) {
+  .head {
+    background: url(../images/dark_plant.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .head h1 {
+    padding-top: 5rem;
+    text-align: center;
+    color: #f2f7f1;
+    font-size: 3rem;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 1rem 10px 20px #000000;
+  }
+  .head h2 {
+    color: #c9ccc9;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: 1rem 10px 50px #000000;
+  }
+  .head hr {
+    border: 2px solid #c9ccc9 !important;
+    min-width: 5rem !important;
+    opacity: 100% !important;
+  }
+}
+.About {
+  background-color: #fcfcfc;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.About .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.About .container .Me {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.About .container .ab {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.About .container .ab h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0px !important;
+}
+.About .container .ab hr {
+  border: 2px solid rgb(99, 96, 96) !important;
+  width: 5rem !important;
+  opacity: 100% !important;
+}
+.About .container .ab h6 {
+  color: rgb(99, 96, 96);
+  margin-top: 1rem !important;
+}
+.About .container .ab .resume {
+  align-self: flex-start;
+}
+.About .container .ab .resume a {
+  text-decoration: none;
+}
+.About .container .ab .resume a .Download {
+  margin-top: 1rem;
+}
+.About .container .ab .resume a .Download button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 2px solid rgb(56, 55, 55);
+  box-shadow: inset 0px 0px 0px 0px rgb(56, 55, 55);
+  transition: all 0.5s ease;
+  background-color: #fcfcfc;
+  border-radius: 5px;
+}
+.About .container .ab .resume a .Download button:hover {
+  color: #fcfcfc;
+  border: 2px solid #fcfcfc;
+  background-color: rgb(56, 55, 55);
+}
+
+.Languages {
+  background-color: #f2f7f1;
+}
+.Languages .container .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0rem 2rem 0rem;
+}
+.Languages .container .title h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.Languages .container .title hr {
+  border: 2px solid rgb(99, 96, 96) !important;
+  width: 5rem !important;
+  opacity: 100% !important;
+}
+
+.Designs {
+  background-color: #fcfcfc;
+}
+.Designs .title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0rem 2rem 0rem;
+}
+.Designs .title h1 {
+  font-family: "Montserrat", sans-serif;
+}
+.Designs .title hr {
+  border: 2px solid rgb(99, 96, 96) !important;
+  width: 5rem !important;
+  opacity: 100% !important;
+}
+.Designs .row {
+  margin: 3rem 0rem;
+}
+.Designs .row .first .one {
+  position: relative;
+}
+.Designs .row .first .one h2 {
+  position: absolute;
+  left: 33%;
+  top: 50%;
+  opacity: 0%;
+  transition: 1s ease;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+}
+.Designs .row .first .one img {
+  opacity: 100%;
+  transition: 1s ease;
+}
+.Designs .row .first .one:hover {
+  position: relative;
+}
+.Designs .row .first .one:hover h2 {
+  position: absolute;
+  left: 33%;
+  top: 50%;
+  opacity: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.Designs .row .first .one:hover img {
+  opacity: 20%;
+}
+.Designs .row .second .two {
+  position: relative;
+}
+.Designs .row .second .two h2 {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  opacity: 0%;
+  transition: 1s ease;
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+}
+.Designs .row .second .two img {
+  opacity: 100%;
+  transition: 1s ease;
+}
+.Designs .row .second .two:hover {
+  position: relative;
+}
+.Designs .row .second .two:hover h2 {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  opacity: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+.Designs .row .second .two:hover img {
+  opacity: 20%;
+}
+
+@media (max-width: 991px) {
+  .About {
+    padding: 2rem 0rem;
+    background-color: #fcfcfc;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .About .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .About .container .Me {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem !important;
+  }
+  .About .container .ab {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .About .container .ab h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0px !important;
+  }
+  .About .container .ab hr {
+    border: 2px solid rgb(99, 96, 96) !important;
+    width: 5rem !important;
+    opacity: 100% !important;
+  }
+  .About .container .ab h6 {
+    color: rgb(99, 96, 96);
+    margin-top: 1rem !important;
+  }
+  .About .container .ab .resume {
+    align-self: flex-start;
+  }
+  .About .container .ab .resume a {
+    text-decoration: none;
+  }
+  .About .container .ab .resume a .Download {
+    margin-top: 1rem;
+  }
+  .About .container .ab .resume a .Download button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 2px solid rgb(56, 55, 55);
+    box-shadow: inset 0px 0px 0px 0px rgb(56, 55, 55);
+    transition: all 0.5s ease;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+  }
+  .About .container .ab .resume a .Download button:hover {
+    color: #fcfcfc;
+    border: 2px solid #fcfcfc;
+    background-color: rgb(56, 55, 55);
+  }
+  .Languages {
+    min-height: 100vh;
+    background-color: #f2f7f1;
+  }
+  .Languages .container .title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0rem 5rem 0rem;
+  }
+  .Languages .container .title h1 {
+    font-family: "Montserrat", sans-serif;
+  }
+  .Languages .container .title hr {
+    border: 2px solid rgb(99, 96, 96) !important;
+    width: 5rem !important;
+    opacity: 100% !important;
+  }
+  .Designs {
+    background-color: #fcfcfc;
+  }
+  .Designs .title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 0rem 5rem 0rem;
+  }
+  .Designs .title h1 {
+    font-family: "Montserrat", sans-serif;
+  }
+  .Designs .title hr {
+    border: 2px solid rgb(99, 96, 96) !important;
+    width: 5rem !important;
+    opacity: 100% !important;
+  }
+  .Designs .row {
+    margin: 0rem 0rem;
+  }
+  .Designs .row .first {
+    margin: 2rem 0rem;
+  }
+  .Designs .row .first .one {
+    position: relative;
+  }
+  .Designs .row .first .one h2 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    opacity: 0%;
+    transition: 1s ease;
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Designs .row .first .one img {
+    opacity: 100%;
+    transition: 1s ease;
+  }
+  .Designs .row .first .one:hover {
+    position: relative;
+  }
+  .Designs .row .first .one:hover h2 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    opacity: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Designs .row .first .one:hover img {
+    opacity: 20%;
+  }
+  .Designs .row .second {
+    margin: 2rem 0rem;
+  }
+  .Designs .row .second .two {
+    position: relative;
+  }
+  .Designs .row .second .two h2 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    opacity: 0%;
+    transition: 1s ease;
+    z-index: 1;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Designs .row .second .two img {
+    opacity: 100%;
+    transition: 1s ease;
+  }
+  .Designs .row .second .two:hover {
+    position: relative;
+  }
+  .Designs .row .second .two:hover h2 {
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    opacity: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Designs .row .second .two:hover img {
+    opacity: 20%;
+  }
+}/*# sourceMappingURL=style.css.map */

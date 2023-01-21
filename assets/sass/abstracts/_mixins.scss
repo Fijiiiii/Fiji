@@ -1,0 +1,18 @@
+@mixin flex($display,$justify,$direction,$align) {
+  display: $display;
+  justify-content: $justify;
+  flex-direction: $direction;
+  align-items: $align;
+}
+@mixin padding($ptop,$pright,$pbot,$pleft) {
+  padding-top: $ptop;
+  padding-right: $pright;
+  padding-bottom: $pbot;
+  padding-left: $pleft;
+}
+@mixin margin($mtop,$mright,$mbot,$mleft) {
+  margin-top: $mtop;
+  margin-right: $mright;
+  margin-bottom: $mbot;
+  margin-left: $mleft;
+}
