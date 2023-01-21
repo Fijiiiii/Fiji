@@ -256,14 +256,12 @@
     .row{
       margin: 0rem 0rem;
       .first{
-        margin: 2rem 0rem;
+        margin: 0rem 0rem;
         .one{
           position: relative;
           h2{
             position: absolute;
-            left: 40%;
-            top: 50%;
-            opacity: 0%;
+            text-align: center;
             transition: 1s ease;
             z-index: 1;
             font-family: 'Montserrat', sans-serif;
@@ -278,8 +276,7 @@
               position: relative;
               h2{
                 position: absolute;
-                left: 40%;
-                top: 50%;
+                text-align: center;
                 opacity: 100%;
                 font-family: 'Montserrat', sans-serif;
                 
@@ -298,8 +295,7 @@
           position: relative;
           h2{
             position: absolute;
-            left: 40%;
-            top: 50%;
+            text-align: center;
             opacity: 0%;
             transition: 1s ease;
             z-index: 1;
@@ -315,8 +311,7 @@
               position: relative;
               h2{
                 position: absolute;
-                left: 40%;
-                top: 50%;
+                text-align: center;
                 opacity: 100%;
                 font-family: 'Montserrat', sans-serif;
               }

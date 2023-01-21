@@ -192,9 +192,11 @@ nav .container .collapse ul li:hover .nav-bor {
     background-color: #f2f7f1;
   }
   nav .container a h1 {
+    font-size: 3rem;
     color: rgb(56, 55, 55) !important;
     font-family: "Caladea", serif;
     font-weight: 700;
+    text-shadow: none;
   }
   nav .container button {
     background-color: black !important;
@@ -769,16 +771,14 @@ footer .last .row .footer-icons a i {
     margin: 0rem 0rem;
   }
   .Designs .row .first {
-    margin: 2rem 0rem;
+    margin: 0rem 0rem;
   }
   .Designs .row .first .one {
     position: relative;
   }
   .Designs .row .first .one h2 {
     position: absolute;
-    left: 40%;
-    top: 50%;
-    opacity: 0%;
+    text-align: center;
     transition: 1s ease;
     z-index: 1;
     font-family: "Montserrat", sans-serif;
@@ -792,8 +792,7 @@ footer .last .row .footer-icons a i {
   }
   .Designs .row .first .one:hover h2 {
     position: absolute;
-    left: 40%;
-    top: 50%;
+    text-align: center;
     opacity: 100%;
     font-family: "Montserrat", sans-serif;
   }
@@ -808,8 +807,7 @@ footer .last .row .footer-icons a i {
   }
   .Designs .row .second .two h2 {
     position: absolute;
-    left: 40%;
-    top: 50%;
+    text-align: center;
     opacity: 0%;
     transition: 1s ease;
     z-index: 1;
@@ -824,8 +822,7 @@ footer .last .row .footer-icons a i {
   }
   .Designs .row .second .two:hover h2 {
     position: absolute;
-    left: 40%;
-    top: 50%;
+    text-align: center;
     opacity: 100%;
     font-family: "Montserrat", sans-serif;
   }

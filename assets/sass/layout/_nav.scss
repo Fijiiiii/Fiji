@@ -88,9 +88,11 @@ nav{
     .container{
       a{
         h1{
+          font-size: 3rem;
           color: $lettershead !important;
           font-family: 'Caladea', serif;
           font-weight: 700;
+          text-shadow: none;
         }
       }
       button{
